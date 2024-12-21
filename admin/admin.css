@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    /*justify-content: center;*/
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    display: block;
+    border: 1px solid #ccc;
+    width: 900px;
+    padding: 10px;
+    border-radius: 2px;
+}
+textarea{
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.page-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}

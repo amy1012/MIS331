@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <title>作品網站-後台新增文章</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="admin.css"/>
+        <link rel="shortcut icon" href="../images/favicon.ico">
+    </head>
+    <body>
+        <div class="content">
+            <h2 class="page-title">Creare Posts</h2>
+              <form action="creat.html" method="post">
+                <div>
+                  <label>Title</label>
+                  <input type="text" name="title" class="text-input">
+                </div>
+                <br>
+                <div>
+                    <label>Intro</label>
+                    <input type="text" name="intro" name="intro">
+                </div>
+                <br>
+                <div>
+                    <label>Body</label>
+                    <textarea name="body" id="body"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Tips</label>
+                    <textarea name="tips" id="tips"></textarea>
+                </div>
+                <div>
+                    <label>Image Upload</label>
+                    <input type="file" name="photos">
+                </div>
+                <div>
+                    <label>Image Upload</label>
+                    <input type="file" name="photos">
+                </div>
+                <div>
+                    <label>Image Upload</label>
+                    <input type="file" name="photos">
+                </div>
+              </form>
+          </div>
+          
+          <!--JQuery-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <!--Ckeditor-->
+          <script src="https://cdn.ckeditor.com/ckeditor5/40.1.0/classic/ckeditor.js"></script>
+
+          <script>
+            ClassicEditor
+            .create( document.querySelector( '#body'), {
+                toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+                heading: {
+                    options: [
+                        { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+                        { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+                        { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+                    ]
+                }
+            } )
+            .catch( error => {
+                console.log( error );
+            } );
+            ClassicEditor
+            .create( document.querySelector( '#tips'), {
+                toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+                heading: {
+                    options: [
+                        { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+                        { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+                        { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+                    ]
+                }
+            } )
+            .catch( error => {
+                console.log( error );
+            } );
+          </script>
+    </body>
+</html>

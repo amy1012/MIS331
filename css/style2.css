@@ -1,0 +1,300 @@
+
+
+.content {
+	margin: 10px;
+	z-index: 0;
+	align-items: center;
+}
+#content{
+	min-height: auto;
+}
+div.image img{
+	width: 300px;
+}
+
+@media (max-width: 600px) {
+	.carousel-item > img {
+		max-height: 300px;
+	}
+}
+.head_out{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.head{
+	text-align: center;
+	font-size: 40px;
+}
+
+@media (max-width: 400px) {
+	.head {
+		font-size: 24px;
+	}
+}
+
+.highspace{
+	height: 80px;
+}
+
+.col-xs-12 > p {
+	font-size: 24px;
+}
+.container{
+	/*width: 80%;*/
+	text-align: center;
+	padding: 0px;
+}
+.col-md-4{
+	width: 30%;
+	height: 400px;
+	margin: 0px 15px 50px;
+	padding: 0px;
+	border: 0.5px solid rgb(3, 56, 3);;
+	border-radius: 10px;
+}
+
+
+.card-img-top {
+	height: 300px;
+}
+
+.col-md-4 img {
+	border-radius: 10px 10px 0px 0px;
+}
+
+.col-md-4:hover{
+	transform: translate(0px, -5px);
+  	opacity: 0.9;
+}
+
+.content .col-md-12 {
+	padding: 0px;
+}
+
+h5{
+	padding-left: 5px;
+}
+@media(max-width: 1150px){
+    /*.container{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0px;
+	}*/
+	.row-cols-md-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.col-md-4{
+		width: 70%;
+	}
+	.card-img-top {
+		width: 100%;
+		object-fit: cover; /* 保持圖片寬高比例，並裁剪超出部分 */
+	}
+}
+
+.container p {
+	font-size: 20px;
+}
+
+
+.addmem {
+	width: 100%;
+	text-align: left;
+}
+
+.form-group {
+	margin: 20px 20%;
+}
+
+.form-group label {
+	float: left;
+}
+
+@media (max-width: 1000px) {
+	.form-group {
+		margin: 20px 15%;
+	}
+}
+
+.Th {
+	font-size: 20px;
+}
+
+.Td {
+	font-size: 16px;
+}
+
+.Tda {
+	margin: 0px 20px;
+}
+
+@media (max-width: 600px) {
+	.form-group {
+		margin: 20px;
+	}
+	.Th {
+		font-size: 16px;
+	}
+	.Tda {
+		margin: 5px 5px;
+	}
+	.addmem {
+		width: 100%;
+		margin: 0px auto;
+	}
+}
+
+@media (max-width: 800px) {
+	.addmem {
+		width: 80%;
+		margin: 0px auto;
+		text-align: center;
+	}
+}
+
+@media (max-width: 375px) {
+	.addmem {
+		margin: 0px 95px;
+	}
+}
+
+@media (max-width: 500px) {
+	.addmembtn {
+		margin: 10px 0px;
+		padding: 5px 10px;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.form-group {
+		margin: 20px 0px;
+	}
+	.Th {
+		font-size: 14px;
+	}
+	.Td {
+		font-size: 14px;
+	}
+	.col-xs-12 {
+		width: 90%;
+		left: 20px;
+	}
+}
+
+.Hello {
+	font-size: 20px;
+}
+
+@media (max-width: 600px) {
+	.Hello {
+		font-size: 16px;
+		padding: 5px;
+		width: 80%;
+		margin: 0px auto;
+	}
+	.col-xs-12 {
+		padding: 0px;
+	}
+}
+
+.tbf {
+	font-size: 14px;
+}
+
+@media (max-width: 800px) {
+	.tbf {
+		font-size: 12px;
+	}
+	.content {
+		margin: 0px;
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		margin: 0px auto;
+		width: 95%;
+	}
+
+}
+
+.awktitle {
+	font-size: 20px;
+	margin: 10px 0px;
+	text-align: left;
+}
+
+@media (max-width: 600px) {
+	.awktitle {
+		font-size: 16px;
+	}
+	.tbf {
+		position: relative;
+		right: 20px;
+	}
+}
+
+.Subway {
+	font-size: 14px;
+	height: 30px;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+}
+
+.radio-inline {
+	padding: 0px;
+	margin: 0px 0px;
+	flex: 0.5;
+}
+
+.Subplace {
+	flex: 1;
+}
+
+.postSub {
+	flex: 0.5;
+	width: 80%;
+	padding: 5px 0px;
+	border: #333 1px solid;
+	border-radius: 10px;
+}
+
+.postSub:hover {
+	background-color: #333;
+	color: #FFF;
+	transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 1100px) {
+	.radio-inline {
+		flex: 0.8;
+	}
+	.Subplace {
+		flex: 1;
+	}
+	.postSub {
+		flex: 1;
+	}
+}
+
+@media (max-width: 1100px) {
+	.radio-inline {
+		flex: 1;
+	}
+	.Subplace {
+		flex: 0.5;
+	}
+	.postSub {
+		flex: 1;
+	}
+}
+

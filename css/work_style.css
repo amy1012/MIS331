@@ -1,0 +1,90 @@
+.heading{
+    margin-top: 75px;
+    font-family: Cormorant;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Quicksand;
+    margin-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#content1{
+    float: left;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid;
+    overflow: hidden;
+    padding: 10px; /* Adjust the padding as needed */
+}
+#content1 img{
+    padding: 10px;
+    padding-top: 40px;
+    width: 90%;
+    margin-bottom: 40px;
+}
+#content1 .par {
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 6%;
+    margin-right: 6%;
+    word-wrap: break-word; /* Add this property */
+    font-size: 18px;
+}
+#content1 div{
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 6%;
+    margin-right: 6%;
+    word-wrap: break-word; /* Add this property */
+    font-size: 16px;
+}
+#content1 ul{
+    margin-left: 6%;
+    font-size: 16px;
+}
+#content1 li{
+    text-align: left;
+    font-size: 16px;
+}
+#content1 ol{
+    margin-left: 6%;
+    font-size: 16px;
+}
+.more img{
+    padding-top: 10px;
+    margin-top: -20px;
+}
+.more div{
+font-family: Cormorant;
+text-align: center;
+font-size: 50px;
+padding-top: 20px;
+}
+@media(max-width: 600px){
+    .heading{
+        font-size: 40px;
+    }
+    #content1 p{
+        font-size: 16px;
+    }
+    #content1 div{
+        font-size: 14px;
+    }
+    #content1 ul{
+        font-size: 14px;
+    }
+    #content1 li{
+        font-size: 14px;
+    }
+    #content1 ol{
+        font-size: 14px;
+    }
+}

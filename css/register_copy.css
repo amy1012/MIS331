@@ -1,0 +1,149 @@
+body {
+    background-color: #edf1d6;
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+form{
+    width: 500px;
+    border: 1px solid;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.LogTitle {
+    text-align: center;
+    cursor: pointer;
+    color:black;
+    font-size:36px;
+    margin: 20px 0px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input{
+    display: block;
+    border: 1px solid #ccc;
+    width: 90%;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.type2 input{
+    display: block;
+    border: 1px solid #ccc;
+    width: 91%;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+label{
+    color: #666666;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    float: right;
+    background-color: #8a8989;
+    border: none;
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin-right: 18px;
+    font-weight: 700;
+}
+button:hover{
+    opacity: 0.7;
+}
+.btn1 button{
+    float: right;
+    background-color: #8a8989;
+    border: none;
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin-right: 12px;
+}
+.btn1 button:hover{
+    opacity: 0.7;
+}
+.ca{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 0px 15px;
+    text-decoration: none;
+    color: #444;
+}
+.ca:hover{
+    text-decoration: underline;
+}
+@media(max-width: 600px){
+    form{
+        width: 400px;
+    }
+    .btn1 button {
+        margin-right: 5px;
+    }
+}
+@media(max-width: 450px){
+    .LogTitle {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    form{
+        width: 250px;
+    }
+    label{
+        padding-left: 5px;
+    }
+    input{
+        margin-left: 0px;
+    }
+    .type2 input{
+        margin-left: 0px;
+    }
+    .btn1 button{
+        margin-right: 2px;
+    }
+    .ca{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+}
+#content{
+ min-height: auto;
+}
+div.image img{
+ width: 300px;
+}
+
+div.video video{
+ width: 300px;
+}
+.highspace{
+ height: 80px;
+}
+
+.col-xs-12 > p {
+ font-size: 24px;
+}
+
+.loginSpace {
+    flex: 1;
+}

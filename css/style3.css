@@ -1,0 +1,149 @@
+.content {
+	margin: 10px;
+	z-index: 0;
+}
+#content{
+	min-height: auto;
+}
+div.image img{
+	width: 300px;
+}
+
+.highspace{
+	height: 80px;
+}
+
+.col-xs-12 > p {
+	font-size: 24px;
+}
+.container{
+	width: 80%;
+}
+.col-md-4{
+	width: 30%;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	/*border: 0.5px solid rgb(3, 56, 3);*/
+	border-radius: 5px;
+}
+.col-md-4:hover{
+	transform: translate(0px, -3px);
+  	opacity: 0.9;
+}
+h5{
+	padding-left: 5px;
+}
+@media(max-width: 1150px){
+    /*.container{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0px;
+	}*/
+	.row-cols-md-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.col-md-4{
+		width: 70%;
+		height: auto;
+	}
+	.card-img-top {
+		width: 100%;
+		object-fit: cover; /* 保持圖片寬高比例，並裁剪超出部分 */
+	}
+}
+.btns input{
+    font-size: 14px;
+}
+.btn-default{
+    border-color: #ccc;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+}
+.btn-default:hover{
+    background-color: #eeeeee;
+    border-color: #ccc;
+}
+.awktitle {
+	font-size: 20px;
+	margin: 10px 0px;
+	text-align: left;
+}
+
+@media (max-width: 600px) {
+	.awktitle {
+		font-size: 16px;
+	}
+}
+.Subway {
+	font-size: 14px;
+	height: 30px;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+    margin-left: 2%;
+}
+
+.radio-inline {
+	padding: 0px;
+	margin: 0px 0px;
+	flex: 0.5;
+}
+
+.Subplace {
+	flex: 1;
+}
+
+.postSub {
+	flex: 0.5;
+	width: 80%;
+	padding: 5px 0px;
+	border: #333 1px solid;
+	border-radius: 10px;
+}
+
+.postSub:hover {
+	background-color: #333;
+	color: #FFF;
+	transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 1100px) {
+	.radio-inline {
+		flex: 0.8;
+	}
+	.Subplace {
+		flex: 1;
+	}
+	.postSub {
+		flex: 1;
+	}
+}
+
+@media (max-width: 1100px) {
+	.radio-inline {
+		flex: 1;
+	}
+	.Subplace {
+		flex: 0.5;
+	}
+	.postSub {
+		flex: 1;
+	}
+}
+.head_out{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head{
+	text-align: center;
+	font-size: 40px;
+}
